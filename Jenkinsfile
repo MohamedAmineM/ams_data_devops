@@ -26,7 +26,7 @@ pipeline {
                      }
                      post {
                          success {
-                             echo "====++++success++++===="
+                             echo "====++++success++++==== "
                          }
                          failure {
                              echo "====++++failed++++===="
