@@ -25,7 +25,7 @@ COPY --from=build /app/target/amsmvc2024.jar .
 
 # Exposer le port sur lequel l'application sera à l'écoute
 # '8080' est le port typique pour les applications web
-EXPOSE 8082
+EXPOSE 8086
 
 # Définir la commande pour exécuter l'application
 # 'java -jar' est utilisé pour lancer l'application JAR
