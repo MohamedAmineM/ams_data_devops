@@ -3,6 +3,7 @@ pipeline {
             DOCKERHUB_CREDENTIALS = credentials('mmnassri')
         }
     agent any
+     
     stages {
 
         stage('Création image Docker') {
